@@ -57,6 +57,14 @@ export REA_JAVASCRIPT_PRLIMIT_COMMAND=/usr/bin/prlimit
 export REA_ADB_PATH=/usr/bin/adb
 export REA_MITMDUMP_COMMAND=$TOOLS/pyenv/bin/mitmdump
 export REA_GHIDRA_STARTUP_TIMEOUT_MS=900000
+export REA_PWNTOOLS_PYTHON=$TOOLS/pyenv/bin/python
+export REA_UNBLOB_COMMAND=$TOOLS/pyenv/bin/unblob
+export REA_UNBLOB_PRLIMIT_COMMAND=/usr/bin/prlimit
+export REA_TSHARK_COMMAND=/usr/bin/tshark
+export REA_TSHARK_PRLIMIT_COMMAND=/usr/bin/prlimit
+export REA_SIGROK_COMMAND=/usr/bin/sigrok-cli
+export REA_SIGROK_PRLIMIT_COMMAND=/usr/bin/prlimit
+export REA_WABT_BIN_DIRECTORY=$TOOLS/wabt-1.0.42/bin
 ${CHROME:+export REA_BROWSER_EXECUTABLE=$CHROME}
 ENV
 grep -q rea-env "$HOME/.bashrc" || echo ". $HOME/.rea-env.sh" >> "$HOME/.bashrc"
