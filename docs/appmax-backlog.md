@@ -1,5 +1,8 @@
 # Backlog: plataforma de pagamentos equivalente (Caminho B)
 
+> **Aviso (15/10/2026):** este backlog foi escrito sem acesso ao PMD Core. Para o PMD, valem a auditoria e o roadmap em [pmd-payments/](pmd-payments/README.md). As Etapas 6 e 7 (split, KYC, conta, antecipação etc.) contradizem `COMMERCIAL.md` L13 do PMD Core e foram descartadas no core; ver Anexo C da Parte 3.
+
+
 Referência de escopo: `appmax-escopo.md`. Premissa: produto de software próprio + parceiros financeiros, com provedores substituíveis. Cada item só é "pronto" quando cumpre o critério listado. Estimativas de prazo/orçamento ficam em aberto até a Etapa 1 estar decidida.
 
 Legenda: **[DEC]** decisão de negócio/jurídica, **[DEV]** desenvolvimento, **[OPS]** operação humana, **[PAR]** depende de parceiro/homologação.

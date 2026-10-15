@@ -6,6 +6,7 @@ Ambiente e testes com o [REA](https://github.com/morluto/rea) (Reverse Engineer 
 - `docs/guia-rea.md`: guia de uso (instalação, fluxo, receitas por alvo, limites).
 - `docs/appmax-escopo.md`: levantamento condensado do escopo público da Appmax.
 - `docs/appmax-backlog.md`: backlog por etapa para uma plataforma equivalente (Caminho B).
+- `docs/pmd-payments/`: auditoria do PMD Core, matriz de provedores, arquitetura proposta, roadmap PAY-0 a PAY-10 e plano da primeira etapa.
 
 ```bash
 bash setup.sh   # depois reinicie o Claude Code
